@@ -1,9 +1,46 @@
-[gd_scene load_steps=2 format=3 uid="uid://dx40ep2vmsqin"]
+[gd_scene load_steps=8 format=3 uid="uid://ceobvd8kjh3k3"]
 
 [ext_resource type="Texture2D" uid="uid://bk4atyb7lrg2y" path="res://trollface.png" id="1_wn2y2"]
+[ext_resource type="Texture2D" uid="uid://c54m1ndqsmq4w" path="res://WhatsApp Image 2024-07-23 at 17.59.08_643187e0.jpg" id="2_48lbd"]
+[ext_resource type="Texture2D" uid="uid://cac0m5lfcros7" path="res://Cheech_falcone (1).webp" id="3_8hxtx"]
+[ext_resource type="Texture2D" uid="uid://vocfa65xtkrv" path="res://yummo snackoi.png" id="4_h4nd7"]
+[ext_resource type="Texture2D" uid="uid://dciaog5c8xres" path="res://Untitled.png" id="5_8ht8c"]
+[ext_resource type="Texture2D" uid="uid://klxd3kwx1mtc" path="res://THREATPANT.png" id="6_30mml"]
+[ext_resource type="Texture2D" uid="uid://cwh3en2ro882r" path="res://ZEPELIN (2).png" id="7_j7sq0"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Trollface" type="Sprite2D" parent="."]
-position = Vector2(2432, 1571)
+position = Vector2(3595.75, 2654)
+scale = Vector2(1.8675, 1.98814)
 texture = ExtResource("1_wn2y2")
+
+[node name="WhatsAppImage2024-07-23At17_59_08643187e0" type="Sprite2D" parent="."]
+position = Vector2(13187, 1498)
+scale = Vector2(5.813, 1.3055)
+texture = ExtResource("2_48lbd")
+
+[node name="CheechFalcone(1)" type="Sprite2D" parent="."]
+position = Vector2(9003, 4407)
+scale = Vector2(12.0199, 5.15472)
+texture = ExtResource("3_8hxtx")
+
+[node name="YummoSnackoi" type="Sprite2D" parent="."]
+position = Vector2(14690, 3671)
+scale = Vector2(3.85484, 1.94493)
+texture = ExtResource("4_h4nd7")
+
+[node name="Untitled" type="Sprite2D" parent="."]
+position = Vector2(15537, 5596)
+scale = Vector2(2.81804, 1.86621)
+texture = ExtResource("5_8ht8c")
+
+[node name="Threatpant" type="Sprite2D" parent="."]
+position = Vector2(3839, 8031)
+scale = Vector2(5.8916, 6.70903)
+texture = ExtResource("6_30mml")
+
+[node name="Zepelin(2)" type="Sprite2D" parent="."]
+position = Vector2(12152, 9073)
+scale = Vector2(14.1163, 10.1559)
+texture = ExtResource("7_j7sq0")
