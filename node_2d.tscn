@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dx40ep2vmsqin"]
+
+[ext_resource type="Texture2D" uid="uid://bk4atyb7lrg2y" path="res://trollface.png" id="1_wn2y2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Trollface" type="Sprite2D" parent="."]
+position = Vector2(2432, 1571)
+texture = ExtResource("1_wn2y2")
