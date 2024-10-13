@@ -1,10 +1,10 @@
 [gd_scene load_steps=5 format=4 uid="uid://b2aam5qi86kk0"]
 
-[ext_resource type="PackedScene" uid="uid://db727gc8326w3" path="res://scenes/character1.tscn" id="1_1a61k"]
-[ext_resource type="Texture2D" uid="uid://dr558jig3e5e0" path="res://tile maps/tinyset.png" id="2_vwhd0"]
+[ext_resource type="Texture2D" uid="uid://dr558jig3e5e0" path="res://tile maps/tinyset.png" id="1_y5mp0"]
+[ext_resource type="PackedScene" uid="uid://db727gc8326w3" path="res://scenes/character1.tscn" id="2_cisw5"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ui2vs"]
-texture = ExtResource("2_vwhd0")
+texture = ExtResource("1_y5mp0")
 margins = Vector2i(8, 8)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -4, -4, -4, -4, 8, -8, 8)
@@ -44,4 +44,4 @@ scale = Vector2(6.91, 6.91)
 tile_map_data = PackedByteArray("AAAKAAQAAAABAAEAAAALAAQAAAABAAEAAAAMAAQAAAABAAEAAAANAAQAAAABAAEAAAANAAMAAAABAAEAAAAMAAMAAAABAAEAAAALAAMAAAABAAEAAAAKAAMAAAABAAEAAAAKAAIAAAABAAEAAAAMAAIAAAABAAEAAAANAAIAAAABAAEAAAANAAEAAAABAAEAAAAMAAEAAAABAAEAAAALAAEAAAABAAEAAAAKAAEAAAABAAEAAAAKAAAAAAABAAAAAAALAAAAAAABAAAAAAAMAAAAAAABAAAAAAANAAAAAAABAAAAAAAOAAAAAAACAAAAAAAOAAEAAAACAAEAAAAOAAIAAAACAAEAAAAOAAMAAAACAAEAAAAOAAQAAAACAAEAAAAOAAUAAAACAAIAAAANAAUAAAABAAIAAAAMAAUAAAABAAIAAAALAAUAAAABAAIAAAAKAAUAAAABAAIAAAAJAAUAAAAAAAIAAAAJAAQAAAAAAAEAAAAJAAMAAAAAAAEAAAAJAAIAAAAAAAEAAAAJAAEAAAAAAAEAAAAJAAAAAAAAAAAAAAALAAIAAAABAAEAAAA=")
 tile_set = SubResource("TileSet_ykiul")
 
-[node name="Node2D" parent="." instance=ExtResource("1_1a61k")]
+[node name="Node2D" parent="." instance=ExtResource("2_cisw5")]
