@@ -3,20 +3,20 @@
 [ext_resource type="Texture2D" uid="uid://brjtdlwtc13xs" path="res://images/cheech.png" id="1_606n5"]
 [ext_resource type="Script" path="res://nodes/character_body_2d.gd" id="1_gc6hb"]
 
-[node name="Node2D" type="Node2D"]
+[node name="CheechNode" type="Node2D"]
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+[node name="CheechCharacterBody" type="CharacterBody2D" parent="."]
 script = ExtResource("1_gc6hb")
 
-[node name="Cheech" type="Sprite2D" parent="CharacterBody2D"]
+[node name="CheechSprite" type="Sprite2D" parent="CheechCharacterBody"]
 scale = Vector2(0.04, 0.04)
 texture = ExtResource("1_606n5")
 
-[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-zoom = Vector2(10, 10)
+[node name="CheechCamera" type="Camera2D" parent="CheechCharacterBody"]
+zoom = Vector2(5, 5)
 position_smoothing_enabled = true
 position_smoothing_speed = 15.0
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="CharacterBody2D"]
+[node name="CheechCollision" type="CollisionPolygon2D" parent="CheechCharacterBody"]
 visible = false
 polygon = PackedVector2Array(-1.55469, -9.65625, -0.515625, -7.74219, -0.210938, -7.875, 0.171875, -7.42188, 0.40625, -6.72656, 0.335938, -5.44531, 0.640625, -4.28125, 0.015625, -2.71094, 1.03906, -2.36719, 1.71094, -0.726563, 2.67188, -1.69531, 3.10156, -2.52344, 3.57813, -3.23438, 4.85938, -3.35156, 5.35938, -2.94531, 5.29867, -1.90438, 2, 1, 2.39063, 1.96094, 2.1875, 3.38281, 1.29688, 4.61719, 0.65625, 7.4375, 0.945313, 7.89844, 2.42188, 8.15625, 2.44531, 8.70313, 0.273438, 8.59375, -0.109375, 9.32031, -1.08594, 9.42969, -2.84375, 8.57031, -1.73438, 4.35938, -2.82813, 3.9375, -3.49219, 3.15625, -2.98438, 2.11719, -5.15625, 1.27344, -5.42188, 0.515625, -3.3125, -2.39063, -1.96875, -2.53125, -2.60938, -5.02344, -3.15625, -5.09375, -3.39063, -6.14063, -3.02344, -6.35938, -2.94531, -7.98438, -2.58594, -8.78125, -2.36719, -9.4375)
